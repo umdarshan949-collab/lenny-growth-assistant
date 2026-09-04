@@ -1,0 +1,31 @@
+Title: Product-Led Growth, B2B Self-Serve, and Freemium Monetization Strategy
+Guest: Elena Verna (Growth Advisor & Executive)
+Host: Lenny Rachitsky
+Source: Lenny's Podcast Episode #42
+
+Lenny Rachitsky: Welcome back to Lenny's Podcast! Today I'm joined by Elena Verna, who is one of the top growth advisors in tech, having advised companies like Miro, SurveyMonkey, Netlify, and Amplitude. Elena, welcome!
+
+Elena Verna: Thanks for having me, Lenny. excited to talk all things PLG and monetization today.
+
+Lenny Rachitsky: Let's start with Product-Led Growth (PLG). A lot of founders think PLG just means launching a free trial or adding a self-serve checkout page. How do you define true PLG?
+
+Elena Verna: PLG is not just a feature or a pricing tier; it is an organizational product distribution model where the product itself drives user acquisition, retention, and expansion. In traditional sales-led growth (SLG), sales reps educate the user, convert them, and onboard them. In PLG, the product must do the heavy lifting of onboarding, delivering time-to-value (TTV), and converting users into active champions.
+
+Lenny Rachitsky: That's a crucial distinction. What are the common mistakes companies make when transitioning from Sales-Led to Product-Led?
+
+Elena Verna: The biggest mistake is slapped-on freemium without changing internal incentive structures. If your sales team is commissioned to close top-down enterprise deals, they will see self-serve users as leads to hijack rather than organic usage to nurture. You need a dedicated Product-Led Sales (PLS) motion. Product-Led Sales doesn't replace sales reps; it arms them with Product Qualified Leads (PQLs)—users or accounts that have already experienced high product value and are hitting natural monetization paywalls.
+
+Lenny Rachitsky: How do you define a Product Qualified Lead (PQL)?
+
+Elena Verna: A PQL is an account or user that reaches a specific threshold of active usage that indicates readiness for monetization or enterprise expansion. For example, at Miro, a PQL wasn't just someone who signed up; it was an account where 3 different team members created at least 2 active boards in 7 days. That signal triggers outreach from sales, resulting in 5x higher conversion rates compared to cold outbound.
+
+Lenny Rachitsky: What about Freemium versus Free Trial? How should founders decide between them?
+
+Elena Verna: Free Trials create urgency (e.g. 14 days to test everything), but they create friction if the time-to-value takes longer than 14 days. Freemium creates long-term habit formation because users can stay free forever until they hit a feature wall (e.g., advanced security, admin controls, team limits). If your product has strong network effects or virality (like Miro or Figma), Freemium is almost always superior because free users generate word-of-mouth distribution for free.
+
+Lenny Rachitsky: What is your favorite growth loop advice for product managers?
+
+Elena Verna: Focus on retention loops before acquisition loops! Leaky bucket growth is expensive and fatal. If your Day 30 retention flattening rate is below 20% for self-serve B2B SaaS, fix your core value loop before spending money on performance marketing. Retention powers virality, referral, and monetization.
+
+Lenny Rachitsky: Elena, this is gold. Thank you for sharing your insights!
+Elena Verna: Thank you, Lenny!

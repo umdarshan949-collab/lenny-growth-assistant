@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: lenny_growth_assistant
+    ports:
+      - "8000:8000"
+    environment:
+      - DEFAULT_PROVIDER=ollama
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - DATABASE_URL=postgresql+asyncpg://lenny:lenny_secret@db:5432/lenny_growth_db
+    depends_on:
+      - db
+      - ollama
+    restart: always
+
+  db:
+    image: postgres:15-alpine
+    container_name: lenny_postgres_db
+    environment:
+      POSTGRES_USER: lenny
+      POSTGRES_PASSWORD: lenny_secret
+      POSTGRES_DB: lenny_growth_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: lenny_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_storage:/root/.ollama
+    restart: always
+
+volumes:
+  postgres_data:
+  ollama_storage:

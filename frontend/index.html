@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Lenny Growth Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div id="app-container" class="app-layout">
+    
+    <!-- Sidebar: Chat Sessions -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand">
+          <i class="fa-solid fa-rocket brand-icon"></i>
+          <h2>Lenny Assistant</h2>
+        </div>
+        <button id="btn-new-chat" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-plus"></i> New Chat
+        </button>
+      </div>
+
+      <div class="sessions-list-container">
+        <h3><i class="fa-solid fa-comments"></i> Recent Sessions</h3>
+        <ul id="sessions-list" class="sessions-list">
+          <!-- Session items dynamically injected -->
+        </ul>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="knowledge-badge">
+          <i class="fa-solid fa-book-open"></i> Grounded in Lenny's Transcripts
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Chat View -->
+    <main class="chat-main">
+      <header class="top-header">
+        <div class="header-title">
+          <h1>The Lenny Growth Assistant</h1>
+          <span class="subtitle">AI Product & Growth Strategy Advisor</span>
+        </div>
+
+        <div class="model-selector-container">
+          <label for="provider-select"><i class="fa-solid fa-microchip"></i> Model Provider:</label>
+          <select id="provider-select" class="provider-dropdown">
+            <option value="ollama">Ollama Local (llama3.2)</option>
+            <option value="anthropic">Anthropic (Claude 3.5)</option>
+            <option value="openai">OpenAI (GPT-4o)</option>
+          </select>
+          <span id="provider-status-badge" class="badge badge-success">Ollama Ready</span>
+        </div>
+      </header>
+
+      <!-- Messages Stream -->
+      <div id="chat-messages" class="chat-messages-container">
+        <div class="welcome-card">
+          <div class="welcome-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h2>Welcome to The Lenny Growth Assistant</h2>
+          <p>Ask product management and growth questions strictly grounded in transcripts from <strong>Lenny's Podcast</strong> (featuring Shreyas Doshi, Elena Verna, Brian Balfour, Marty Cagan, Gibson Biddle, and Casey Winters).</p>
+          
+          <div class="quick-prompts">
+            <button class="quick-prompt-btn" data-prompt="What is Shreyas Doshi's LNO framework for PM time management?">
+              ⚡ Shreyas Doshi's LNO Framework
+            </button>
+            <button class="quick-prompt-btn" data-prompt="How does Elena Verna define Product Qualified Leads (PQLs) in PLG?">
+              📈 Elena Verna on PLG & PQLs
+            </button>
+            <button class="quick-prompt-btn" data-prompt="Explain Brian Balfour's growth loops vs traditional funnels.">
+              🔄 Brian Balfour's Growth Loops
+            </button>
+            <button class="quick-prompt-btn" data-prompt="What is Marty Cagan's definition of an Empowered Product Team?">
+              🚀 Marty Cagan on Empowered Teams
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Toolbar -->
+      <div class="action-toolbar">
+        <button id="btn-ship30-skill" class="btn btn-secondary btn-sm">
+          <i class="fa-solid fa-feather-pointed"></i> Generate Ship 30 Essay
+        </button>
+        <button id="btn-demo-artifact" class="btn btn-secondary btn-sm">
+          <i class="fa-solid fa-code"></i> Generate HTML Dashboard Artifact
+        </button>
+      </div>
+
+      <!-- Chat Input Form -->
+      <div class="chat-input-container">
+        <form id="chat-form" class="chat-form">
+          <textarea id="chat-input" placeholder="Ask about growth loops, PM prioritization, PLG, or DHM framework..." rows="2" required></textarea>
+          <button type="submit" id="btn-send" class="btn btn-accent">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <!-- Side-by-Side Artifact Viewer Panel (Claude Style) -->
+    <section id="artifact-panel" class="artifact-panel hidden">
+      <div class="artifact-header">
+        <div class="artifact-title-box">
+          <i class="fa-solid fa-layer-group"></i>
+          <span id="artifact-title">Artifact Viewer</span>
+        </div>
+        <div class="artifact-controls">
+          <div class="tab-buttons">
+            <button id="tab-btn-preview" class="tab-btn active"><i class="fa-solid fa-eye"></i> Preview</button>
+            <button id="tab-btn-code" class="tab-btn"><i class="fa-solid fa-code"></i> Code</button>
+          </div>
+          <button id="btn-close-artifact" class="btn-icon" title="Close Panel"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+
+      <div class="artifact-body">
+        <!-- Sandboxed iframe preview for HTML security isolation -->
+        <iframe id="artifact-iframe" class="artifact-iframe" sandbox="allow-scripts"></iframe>
+        
+        <!-- Markdown / Raw Code View -->
+        <pre id="artifact-code-view" class="artifact-code-view hidden"><code></code></pre>
+      </div>
+
+      <div class="artifact-footer">
+        <span class="security-note"><i class="fa-solid fa-shield-halved"></i> Sandboxed Isolation Active</span>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

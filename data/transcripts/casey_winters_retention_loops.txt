@@ -1,0 +1,26 @@
+Title: Scaling Retention, SEO Loops, and Marketplaces
+Guest: Casey Winters (Former CPO at Eventbrite, Growth Lead at Pinterest, Advisor at Grubhub)
+Host: Lenny Rachitsky
+Source: Lenny's Podcast Episode #15
+
+Lenny Rachitsky: Welcome to Lenny's Podcast. Today my guest is Casey Winters, former Chief Product Officer at Eventbrite, growth lead at Pinterest, and advisor to companies like Airbnb, Canva, and Grubhub. Casey, welcome!
+
+Casey Winters: Thanks Lenny, awesome to be here.
+
+Lenny Rachitsky: Casey, you've scaled marketplace dynamics at Grubhub and Pinterest. What is the fundamental relationship between Retention and Monetization?
+
+Casey Winters: Retention is the foundation of growth. If your product doesn't retain users organically, monetization is just extracting value from a shrinking user base. At Pinterest, we discovered that user acquisition via SEO (Search Engine Optimization) loops only worked because users who landed on pins returned consistently to create new boards.
+
+Lenny Rachitsky: How do you build an SEO Growth Loop that scales sustainably?
+
+Casey Winters: An effective SEO loop requires three elements:
+1. Indexable User Actions: Users creating pages, asking questions, reviewing products, or hosting events.
+2. Programmatic Distribution: Structuring pages so search engines index them high for intent-driven long-tail keywords.
+3. Natural Activation Mechanism: Landing pages must immediately answer the user's search query and nudge them into creating an account to save or unlock full value.
+
+Lenny Rachitsky: How do you diagnose when a product's retention is suffering from onboarding friction versus lack of core value?
+
+Casey Winters: Look at your cohort retention curves split by early activation steps. If users who complete step A (e.g., inviting 3 teammates or setting up 1 integration) have 60% D90 retention, but only 10% of signups complete step A, you have an onboarding velocity problem, not a product value problem. Simplify time-to-value!
+
+Lenny Rachitsky: Fantastic practical insights, Casey. Thanks for joining us!
+Casey Winters: Thanks Lenny!

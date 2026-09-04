@@ -1,0 +1,29 @@
+Title: Empowered Product Teams vs. Feature Factories
+Guest: Marty Cagan (Founder of Silicon Valley Product Group, Author of Inspired and Empowered)
+Host: Lenny Rachitsky
+Source: Lenny's Podcast Episode #10
+
+Lenny Rachitsky: Welcome back to Lenny's Podcast. Today I have the honor of speaking with Marty Cagan, founder of Silicon Valley Product Group and author of Inspired, Empowered, and Transformed. Marty, welcome!
+
+Marty Cagan: Thank you, Lenny. Glad to be here.
+
+Lenny Rachitsky: Marty, you coined the phrase "Feature Factory" to describe how most companies operate today. What is a feature factory, and how does an Empowered Product Team differ?
+
+Marty Cagan: In a Feature Factory, stakeholders and executives treat the product team as order takers. Executives come up with a roadmap of features and hand it to PMs and engineers to build by specific dates. The team is measured on output—how many features they shipped on time—rather than outcomes—whether those features actually solved a customer problem or drove business results.
+
+An Empowered Product Team, by contrast, is given PROBLEMS TO SOLVE rather than FEATURES TO BUILD. Management provides strategic outcomes and key metrics (e.g. "Increase 30-day user activation from 25% to 40%"), and empowers the cross-functional team (PM, Product Designer, Tech Lead) to discover and build the best solution.
+
+Lenny Rachitsky: What are the key risks that an Empowered Team must address during Product Discovery?
+
+Marty Cagan: Every product idea carries 4 fundamental risks that must be tackled before writing production code:
+1. Value Risk: Will the user choose to buy or use this product?
+2. Usability Risk: Can the user figure out how to use it?
+3. Feasibility Risk: Can our engineers actually build this with the available time and technology?
+4. Business Viability Risk: Does this solution work for our business (legal, financial, sales, compliance)?
+
+Lenny Rachitsky: How should PMs collaborate with Tech Leads and Designers in dual-track agile?
+
+Marty Cagan: Product Discovery is a team sport. Tech Leads shouldn't just estimate tickets after a spec is written. The best innovations happen when engineers are exposed directly to customer pain points during discovery interviews. Engineers know what is technically possible; when they understand the problem deeply, they often come up with solutions that cost 10% of the effort of a bloated product spec.
+
+Lenny Rachitsky: Marty, fantastic insights as always. Thank you for coming on!
+Marty Cagan: My pleasure, Lenny.

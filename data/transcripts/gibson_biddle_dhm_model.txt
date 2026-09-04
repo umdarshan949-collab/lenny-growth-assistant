@@ -1,0 +1,22 @@
+Title: Product Strategy, The DHM Model, and Positioning
+Guest: Gibson Biddle (Former VP Product at Netflix, Chief Product Officer at Chegg)
+Host: Lenny Rachitsky
+Source: Lenny's Podcast Episode #31
+
+Lenny Rachitsky: Welcome back. Today my guest is Gibson Biddle, former VP of Product at Netflix and CPO at Chegg. Gibson is famous for crafting the DHM Framework for Product Strategy. Gibson, welcome!
+
+Gibson Biddle: Hey Lenny, thrilled to be here!
+
+Lenny Rachitsky: Gibson, tell us about the DHM Model. What is it, and how did Netflix use it to beat Blockbuster?
+
+Gibson Biddle: DHM stands for Delight customers, Hard to copy, and Margin-enhancing. A great product strategy must answer three fundamental questions simultaneously:
+1. How will the product DELIGHT customers? (e.g. at Netflix: instant streaming, personalized recommendations, unlimited movies).
+2. What will make the product HARD TO COPY over time? (e.g., brand equity, network effects, economies of scale, proprietary technology/algorithms, unique data assets).
+3. How will the product enhance MARGINS and monetization? (e.g., subscription pricing tiers, original content investments that lower licensing costs per view).
+
+Lenny Rachitsky: How did you measure hard-to-copy advantage at Netflix?
+
+Gibson Biddle: We identified 8 key hard-to-copy advantages: Brand, Network Effects, Economies of Scale, Counter-positioning, Unique Technology, Switching Costs, Process Power, and Cornered Resources. For example, Netflix's personalization engine (recommendation system) created massive switching costs because the longer you used Netflix, the better it understood your tastes, making moving to a competitor feel like starting from scratch.
+
+Lenny Rachitsky: That is super powerful. Thank you for sharing the DHM framework with us, Gibson!
+Gibson Biddle: Thank you Lenny!

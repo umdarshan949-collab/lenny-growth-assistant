@@ -1,0 +1,32 @@
+Title: Managing Product Complexity, The LNO Framework, and High-Leverage Leadership
+Guest: Shreyas Doshi (Former Product Leader at Stripe, Twitter, Google)
+Host: Lenny Rachitsky
+Source: Lenny's Podcast Episode #18
+
+Lenny Rachitsky: Welcome back to Lenny's Podcast. Today my guest is Shreyas Doshi, former Product Leader at Stripe, Twitter, Yahoo, and Google, and one of the most insightful thinkers on product management and career effectiveness. Shreyas, welcome!
+
+Shreyas Doshi: Thank you Lenny, great to be here with you.
+
+Lenny Rachitsky: Shreyas, your frameworks on Twitter and LinkedIn are legendary among PMs. Let's dive into the LNO Framework. What is it and why did you create it?
+
+Shreyas Doshi: The LNO Framework stands for Leverage, Neutral, and Overhead. Most product managers and leaders burn out because they treat every single task on their to-do list with equal rigor and perfectionism. That is a recipe for mediocrity and exhaustion.
+
+Lenny Rachitsky: Break down the three categories of LNO for us.
+
+Shreyas Doshi: 
+1. L = Leverage Tasks (10x Impact): These are high-leverage tasks where doing an extraordinary job produces exponentially higher outcomes for the company or team. Examples include defining product strategy, setting high-level product vision, or hiring a key principal engineer. For Leverage tasks, you must aim for 10/10 quality and invest deep focused time.
+2. N = Neutral Tasks (1x Impact): These are tasks that just need to be done well enough (1x impact). Doing a 10/10 job on a Neutral task provides almost zero incremental benefit over doing an 8/10 job. Examples include writing weekly team updates or standard PRDs for minor feature tweaks. Aim for 8/10 quality and move on quickly.
+3. O = Overhead Tasks (<1x Impact / Administrative): These are administrative chores, mandatory compliance updates, or low-priority status syncs. Aim for 5/10 or 6/10 quality—just passably good—or automate/delegate them entirely.
+
+Lenny Rachitsky: That is so practical. How does a PM identify whether a task is L, N, or O?
+
+Shreyas Doshi: Ask yourself: "If I do an absolute stellar job on this task, will it change the trajectory of the product or business over the next 6-12 months?" If yes, it's a Leverage task. If doing a stellar job vs a good-enough job yields the exact same outcome, it's Neutral.
+
+Lenny Rachitsky: Another topic you speak passionately about is "Pre-Mortems" vs Post-Mortems. How should product teams conduct effective Pre-Mortems?
+
+Shreyas Doshi: A Post-Mortem happens after a launch fails—it's an autopsy. A Pre-Mortem happens BEFORE you write a line of code. Gather the cross-functional team (Product, Engineering, Design, Data, Sales, Support) and say: "Imagine we are 12 months in the future. We launched this product and it was a complete, catastrophic failure. Why did it fail?" 
+
+Have everyone write down their top 3 failure reasons silently for 5 minutes, then collect them. Because you framed it as a hypothetical past failure, people feel safe speaking truth to power about risks they normally wouldn't voice. Pre-mortems uncover hidden assumptions early when they are cheap to fix.
+
+Lenny Rachitsky: Brilliant insights as always, Shreyas. Thank you for joining us!
+Shreyas Doshi: Thanks Lenny, always a pleasure.
